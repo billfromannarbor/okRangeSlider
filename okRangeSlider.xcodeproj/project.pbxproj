@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE8F42001E36A734002435D2 /* OKRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F41FF1E36A734002435D2 /* OKRangeSlider.m */; };
+		FE8F42031E36AD7C002435D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8F42021E36AD7C002435D2 /* QuartzCore.framework */; };
 		FEE180E51E367DF000BCAE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE180E41E367DF000BCAE01 /* main.m */; };
 		FEE180E81E367DF000BCAE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE180E71E367DF000BCAE01 /* AppDelegate.m */; };
 		FEE180EB1E367DF000BCAE01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE180EA1E367DF000BCAE01 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		FE8F41FE1E36A734002435D2 /* OKRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRangeSlider.h; sourceTree = "<group>"; };
 		FE8F41FF1E36A734002435D2 /* OKRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKRangeSlider.m; sourceTree = "<group>"; };
+		FE8F42021E36AD7C002435D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FEE180E01E367DF000BCAE01 /* okRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE180E41E367DF000BCAE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = okRangeSlider/main.m; sourceTree = SOURCE_ROOT; };
 		FEE180E61E367DF000BCAE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = okRangeSlider/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -36,17 +38,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8F42031E36AD7C002435D2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE8F42011E36AD7C002435D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F42021E36AD7C002435D2 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEE180D71E367DF000BCAE01 = {
 			isa = PBXGroup;
 			children = (
 				FEE180E21E367DF000BCAE01 /* okRangeSlider */,
 				FEE180E11E367DF000BCAE01 /* Products */,
+				FE8F42011E36AD7C002435D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface OKRangeSlider : UIControl
+    @property (nonatomic) float maximumValue;
+    @property (nonatomic) float minimumValue;
+    @property (nonatomic) float upperValue;
+    @property (nonatomic) float lowerValue;
+
+    - (id)initWithFrame:(CGRect)frame;
 
 @end
