@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OKRangeSlider.h
 //  okRangeSlider
 //
 //  Created by Heitzeg, William on 1/23/17.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OKRangeSlider.h"
 
-@interface ViewController : UIViewController
-
+@interface OKRangeSlider : UIControl
 
 @end
-

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE8F42001E36A734002435D2 /* OKRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F41FF1E36A734002435D2 /* OKRangeSlider.m */; };
 		FEE180E51E367DF000BCAE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE180E41E367DF000BCAE01 /* main.m */; };
 		FEE180E81E367DF000BCAE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE180E71E367DF000BCAE01 /* AppDelegate.m */; };
 		FEE180EB1E367DF000BCAE01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE180EA1E367DF000BCAE01 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE8F41FE1E36A734002435D2 /* OKRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRangeSlider.h; sourceTree = "<group>"; };
+		FE8F41FF1E36A734002435D2 /* OKRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKRangeSlider.m; sourceTree = "<group>"; };
 		FEE180E01E367DF000BCAE01 /* okRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE180E41E367DF000BCAE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = okRangeSlider/main.m; sourceTree = SOURCE_ROOT; };
 		FEE180E61E367DF000BCAE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = okRangeSlider/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -67,6 +70,8 @@
 				FEE180F11E367DF000BCAE01 /* LaunchScreen.storyboard */,
 				FEE180F41E367DF000BCAE01 /* Info.plist */,
 				FEE180E31E367DF000BCAE01 /* Supporting Files */,
+				FE8F41FE1E36A734002435D2 /* OKRangeSlider.h */,
+				FE8F41FF1E36A734002435D2 /* OKRangeSlider.m */,
 			);
 			path = okRangeSlider;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8F42001E36A734002435D2 /* OKRangeSlider.m in Sources */,
 				FEE180EB1E367DF000BCAE01 /* ViewController.m in Sources */,
 				FEE180E81E367DF000BCAE01 /* AppDelegate.m in Sources */,
 				FEE180E51E367DF000BCAE01 /* main.m in Sources */,

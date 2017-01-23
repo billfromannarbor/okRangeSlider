@@ -9,14 +9,19 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
+    OKRangeSlider* _rangeSlider;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSUInteger margin = 20;
+    CGRect sliderFrame = CGRectMake(margin, margin, self.view.frame.size.width - margin * 2, 100);
+    _rangeSlider = [[OKRangeSlider alloc] initWithFrame:sliderFrame];
+    _rangeSlider.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:_rangeSlider];
 }
 
 
